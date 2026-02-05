@@ -20,8 +20,6 @@ async function status(request, response) {
 
   const databaseOpenedConnectionsValue =
     databaseOpenedConnections.rows[0].count;
-
-  console.log(databaseOpenedConnectionsValue);
   //const databaseStatusServer = await database.query("SELECT 1;");
   //const databaseStatusValue = databaseStatusServer.rowCount[0];
 
